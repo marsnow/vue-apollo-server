@@ -4152,6 +4152,14 @@ create-hmac@^1.1.0, create-hmac@^1.1.4, create-hmac@^1.1.7:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+cross-fetch@2.2.2:
+  version "2.2.2"
+  resolved "https://registry.npm.taobao.org/cross-fetch/download/cross-fetch-2.2.2.tgz#a47ff4f7fc712daba8f6a695a11c948440d45723"
+  integrity sha1-pH/09/xxLauo9qaVoRyUhEDUVyM=
+  dependencies:
+    node-fetch "2.1.2"
+    whatwg-fetch "2.0.4"
+
 cross-fetch@3.0.5:
   version "3.0.5"
   resolved "https://registry.npm.taobao.org/cross-fetch/download/cross-fetch-3.0.5.tgz#2739d2981892e7ab488a7ad03b92df2816e03f4c"
@@ -5027,6 +5035,14 @@ eslint-plugin-es@^3.0.0:
   dependencies:
     eslint-utils "^2.0.0"
     regexpp "^3.0.0"
+
+eslint-plugin-graphql@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.npm.taobao.org/eslint-plugin-graphql/download/eslint-plugin-graphql-2.1.1.tgz#dae5d597080075320ea8e98795056309ffe73a18"
+  integrity sha1-2uXVlwgAdTIOqOmHlQVjCf/nOhg=
+  dependencies:
+    graphql-config "^2.0.1"
+    lodash "^4.11.1"
 
 eslint-plugin-import@^2.20.2:
   version "2.22.0"
@@ -6041,6 +6057,17 @@ graphql-anywhere@^4.1.0-alpha.0:
     ts-invariant "^0.3.2"
     tslib "^1.10.0"
 
+graphql-config@^2.0.1:
+  version "2.2.2"
+  resolved "https://registry.npm.taobao.org/graphql-config/download/graphql-config-2.2.2.tgz?cache=0&sync_timestamp=1593505702446&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgraphql-config%2Fdownload%2Fgraphql-config-2.2.2.tgz#a4b577826bba9b83e7b0f6cd617be43ca67da045"
+  integrity sha1-pLV3gmu6m4PnsPbNYXvkPKZ9oEU=
+  dependencies:
+    graphql-import "^0.7.1"
+    graphql-request "^1.5.0"
+    js-yaml "^3.10.0"
+    lodash "^4.17.4"
+    minimatch "^3.0.4"
+
 graphql-extensions@^0.12.4:
   version "0.12.4"
   resolved "https://registry.npm.taobao.org/graphql-extensions/download/graphql-extensions-0.12.4.tgz#c0aa49a20f983a2da641526d1e505996bd2b4188"
@@ -6049,6 +6076,21 @@ graphql-extensions@^0.12.4:
     "@apollographql/apollo-tools" "^0.4.3"
     apollo-server-env "^2.4.5"
     apollo-server-types "^0.5.1"
+
+graphql-import@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.npm.taobao.org/graphql-import/download/graphql-import-0.7.1.tgz#4add8d91a5f752d764b0a4a7a461fcd93136f223"
+  integrity sha1-St2NkaX3UtdksKSnpGH82TE28iM=
+  dependencies:
+    lodash "^4.17.4"
+    resolve-from "^4.0.0"
+
+graphql-request@^1.5.0:
+  version "1.8.2"
+  resolved "https://registry.npm.taobao.org/graphql-request/download/graphql-request-1.8.2.tgz#398d10ae15c585676741bde3fc01d5ca948f8fbe"
+  integrity sha1-OY0QrhXFhWdnQb3j/AHVypSPj74=
+  dependencies:
+    cross-fetch "2.2.2"
 
 graphql-subscriptions@^1.0.0, graphql-subscriptions@^1.1.0:
   version "1.1.0"
@@ -6100,6 +6142,11 @@ graphql-tools@^6.0.9:
     "@graphql-tools/url-loader" "6.0.13"
     "@graphql-tools/utils" "6.0.13"
     "@graphql-tools/wrap" "6.0.13"
+
+graphql-type-json@^0.2.1:
+  version "0.2.4"
+  resolved "https://registry.npm.taobao.org/graphql-type-json/download/graphql-type-json-0.2.4.tgz?cache=0&sync_timestamp=1591763397120&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgraphql-type-json%2Fdownload%2Fgraphql-type-json-0.2.4.tgz#545af27903e40c061edd30840a272ea0a49992f9"
+  integrity sha1-VFryeQPkDAYe3TCECicuoKSZkvk=
 
 graphql-upload@^8.0.2:
   version "8.1.0"
@@ -7109,7 +7156,7 @@ js-queue@2.0.0:
   resolved "https://registry.npm.taobao.org/js-tokens/download/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha1-GSA/tZmR35jjoocFDUZHzerzJJk=
 
-js-yaml@^3.13.1:
+js-yaml@^3.10.0, js-yaml@^3.13.1:
   version "3.14.0"
   resolved "https://registry.npm.taobao.org/js-yaml/download/js-yaml-3.14.0.tgz#a7a34170f26a21bb162424d8adacb4113a69e482"
   integrity sha1-p6NBcPJqIbsWJCTYray0ETpp5II=
@@ -7500,7 +7547,7 @@ lodash.xorby@^4.7.0:
   resolved "https://registry.npm.taobao.org/lodash.xorby/download/lodash.xorby-4.7.0.tgz#9c19a6f9f063a6eb53dd03c1b6871799801463d7"
   integrity sha1-nBmm+fBjputT3QPBtocXmYAUY9c=
 
-lodash@4.17.19, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.16, lodash@^4.17.19, lodash@^4.17.3, lodash@~4.17.10:
+lodash@4.17.19, lodash@^4.11.1, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.16, lodash@^4.17.19, lodash@^4.17.3, lodash@^4.17.4, lodash@~4.17.10:
   version "4.17.19"
   resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.19.tgz?cache=0&sync_timestamp=1594256727883&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha1-5I3e2+MLMyF4PFtDAfvTU7weSks=
@@ -7974,6 +8021,11 @@ no-case@^3.0.3:
   dependencies:
     lower-case "^2.0.1"
     tslib "^1.10.0"
+
+node-fetch@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.npm.taobao.org/node-fetch/download/node-fetch-2.1.2.tgz?cache=0&sync_timestamp=1591866508202&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnode-fetch%2Fdownload%2Fnode-fetch-2.1.2.tgz#ab884e8e7e57e38a944753cec706f788d1768bb5"
+  integrity sha1-q4hOjn5X44qUR1POxwb3iNF2i7U=
 
 node-fetch@2.6.0, node-fetch@^2.1.2, node-fetch@^2.2.0, node-fetch@^2.6.0:
   version "2.6.0"
@@ -11465,6 +11517,11 @@ websocket@1.0.31:
     nan "^2.14.0"
     typedarray-to-buffer "^3.1.5"
     yaeti "^0.0.6"
+
+whatwg-fetch@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
+  integrity sha1-3eal3zFfnTmZGqF2IYU9cguFVm8=
 
 whatwg-fetch@>=0.10.0:
   version "3.2.0"
